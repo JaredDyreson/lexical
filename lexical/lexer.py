@@ -1,7 +1,5 @@
 #!/usr/bin/env python3.8
 
-import operands
-
 """
 Needed components:
   - Enumeration class deciding which operands we need to use
