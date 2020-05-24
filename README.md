@@ -53,7 +53,9 @@ An example function map can be as follows:
 
 ```python
 def list_all(token: str):
-  print("Listing: {}".format(token))
+  s = token.split()
+  begin, end = s[0], s[1]
+  for x in range(begin, end): print(x)
 
 # where operand is an import that contains the class OperandCodes which is an Enumeration class, component number one
 lex = lexer(operand.OperandCodes)
