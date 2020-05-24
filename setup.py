@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 import sys
 
-PKG_NAME = "Lexical"
+PKG_NAME = "lexical"
 
 _here = os.path.abspath(os.path.dirname(__file__))
 
