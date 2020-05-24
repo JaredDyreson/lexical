@@ -53,7 +53,7 @@ An example function map can be as follows:
 
 ```python
 def list_all(token: str):
-  s = token.split()
+  s = token.split("-")
   begin, end = s[0], s[1]
   for x in range(begin, end): print(x)
 
