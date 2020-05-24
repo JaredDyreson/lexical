@@ -55,6 +55,7 @@ An example function map can be as follows:
 def list_all(token: str):
   print("Listing: {}".format(token))
 
+# where operand is an import that contains the class OperandCodes which is an Enumeration class, component number one
 lex = lexer(operand.OperandCodes)
 function_map = {
     lex.operands.GARBAGE.value: lambda token: print("Got a garbage value of {}".format(token)) ,
